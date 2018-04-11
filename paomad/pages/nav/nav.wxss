@@ -1,0 +1,28 @@
+/* pages/nav/nav.wxss */
+.box{
+  display: flex;
+  flex-wrap: wrap;}
+.child{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding:150rpx 0; 
+  width: 50%;}
+.child:nth-child(1){
+  background:#ccc;}
+.child:nth-child(2){
+   background:red;}
+.child:nth-child(3){
+   background:pink;}
+.child:nth-child(4){
+   background:green;}
+.child:nth-child(5){
+   background:yellow;}
+.box image{
+  width: 60rpx;}
+.rotateX90{
+  transform: rotateX(-90deg);}
+.item1Style{
+  transform: rotateX(0deg);}
+.rotateY90{
+  transform: rotateY(-90deg);}

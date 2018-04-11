@@ -1,0 +1,19 @@
+<!--pages/nav/nav.wxml-->
+<view bindtap='bindCss'>按钮Css3</view>
+<view class='box'>
+  <view animation="{{item1}}" class="child rotateY90">
+    <image mode='widthFix' src='../images/like.png'></image>
+  </view>
+  <view animation="{{item2}}" class="child  rotateX90">
+    <image mode='widthFix' src='../images/manyi.png'></image>
+  </view>
+  <view animation="{{item4}}" class="child rotateY90">
+    <image mode='widthFix' src='../images/vip.png'></image>
+  </view>
+  <view animation="{{item3}}" class="child rotateX90">
+    <image mode='widthFix' src='../images/psd.png'></image>
+  </view>
+  <view animation="{{item5}}" class="child rotateX90">
+    <image mode='widthFix' src='../images/big.png'></image>
+  </view> 
+</view>

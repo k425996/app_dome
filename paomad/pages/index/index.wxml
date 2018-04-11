@@ -1,0 +1,27 @@
+<!-- <view>1 显示完后再显示</view>
+<view class="example">
+  <view class="marquee_box">
+    <view class="marquee_text" style="{{orientation}}:{{marqueeDistance}}px;font-size: {{size}}px;">
+      {{text}}
+    </view>
+  </view>
+</view>
+<view>2 出现白边后即显示</view>
+<view class="example">
+  <view class="marquee_box">
+    <view class="marquee_text" style="{{orientation}}:{{marqueeDistance2}}px;font-size: {{size}}px;">
+      <text>{{text}}</text>
+      <text wx:if="{{marquee2copy_status}}" style="margin-left:{{marquee2_margin}}px;">{{text}}</text>
+    </view>
+  </view>
+</view> -->
+
+<view>css3 + animation跑马灯</view>
+
+<view class="marquee">
+    <view class="content">
+        <text>{{text}}</text> <text style="display: inline-block; width: 5em;"></text>
+        <text>{{text}}</text> <text style="display: inline-block; width: 5em;"></text>
+        <text>{{text}}</text> <text style="display: inline-block; width: 5em;"></text>
+    </view>
+</view>

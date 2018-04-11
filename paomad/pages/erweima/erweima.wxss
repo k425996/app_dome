@@ -1,0 +1,4 @@
+/* pages/erweima/erweima.wxss */
+.canvas{
+  width: 100%;
+  height:900rpx;}

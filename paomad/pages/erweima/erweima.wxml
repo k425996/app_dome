@@ -1,0 +1,7 @@
+<!--pages/erweima/erweima.wxml-->
+<canvas canvas-id='share' class='canvas'>
+
+</canvas>
+<view bindtap='saveImageToPhotosAlbum'>
+提交
+</view>
